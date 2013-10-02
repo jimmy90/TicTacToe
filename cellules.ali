@@ -1,0 +1,43 @@
+V "GNAT Lib v2012"
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnvnnnnvnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnn
+
+U cellules%b		cellules.adb		9b5e91fb NE OO PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+
+U cellules%s		cellules.ads		6f2e8e71 EE OO PK
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20120510125803 3ffc8e18
+D a-except.ads		20120510125752 ec1b44c1
+D a-unccon.ads		20120510125801 f9eb8f06
+D cellules.ads		20131002222803 6f2e8e71
+D cellules.adb		20131002224053 f4701f8a
+D system.ads		20120510125846 eb6e42ba
+D s-exctab.ads		20120510125824 66e51330
+D s-parame.ads		20120510125832 b6e20cc0
+D s-stalib.ads		20120510125834 f78bcf95
+D s-traent.ads		20120510125838 5221ee41
+X 4 cellules.ads
+1K9*Cellules 5r35 5r56 25l5 25e13 5|1b14 22l5 22t13
+2E17*Colonne{character}
+3E17*Ligne{character}
+4E14*Symbole 4e35 5r44 5r65 13r43 16r53 22r37 5|9r46 16r54
+4n26*'O'{4E14} 5r77 5r96
+4n31*'X'{4E14} 5r84 5r89
+5a9*Suivant(4E14)
+6R14*Cellule 8r24 13r27 16r34 19c14 19d23 24e19 5|4r27 9r30 16r35
+8V10*IsEmpty{boolean} 8>18 5|4b13 7l8 7t15
+8r18 cel{6R14} 5|4b21 6r18
+10X9*cel_empty 5|12r18
+13V10*IsNotEmpty{4E14} 13>21 5|9b13 13l8 13t18
+13r21 cel{6R14} 5|9b24 11r10 11r34
+15X9*cel_not_empty 5|18r34
+16U12*Tracer 16=21 16>43 5|16b14 20l8 20t14
+16r21 cel{6R14} 5|16b22 18r11 19m12
+16e43 symb{4E14} 5|16b44 19r45
+19b23*occupee{boolean} 20r22 5|6r22 11r14 18r15
+22e30*symb{4E14} 5|11r38 19m37
+

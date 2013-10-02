@@ -1,0 +1,109 @@
+V "GNAT Lib v2012"
+M P W=8
+P SS ZX
+R nnnnnnnnnnnnnnnvnnvnnvnnnvnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnvnnnnnnnnnnnvnnnnnnnnnnnnnn
+
+U jeu%b			jeu.adb			c7cb3ee8 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W cellules%s		cellules.adb		cellules.ali
+W grille%s		grille.adb		grille.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.val_enum%s	s-valenu.adb		s-valenu.ali
+
+D ada.ads		20120510125803 3ffc8e18
+D a-except.ads		20120510125752 ec1b44c1
+D a-finali.ads		20120510125753 52ecdc1b
+D a-ioexce.ads		20120510125753 8b9de6cd
+D a-stream.ads		20120510125756 2ca4ee37
+D a-tags.ads		20120510125759 6c0509d0
+D a-textio.ads		20120510125800 386df5d4
+D a-unccon.ads		20120510125801 f9eb8f06
+D cellules.ads		20131002222803 6f2e8e71
+D grille.ads		20131002230514 3b163766
+D interfac.ads		20120510125815 129923ea
+D i-cstrea.ads		20120510125814 1bd72c32
+D jeu.adb		20131002234848 ab9e722b
+D system.ads		20120510125846 eb6e42ba
+D s-conca2.ads		20120510125823 fbd0f2fc
+D s-conca3.ads		20120510125823 762a026a
+D s-crtl.ads		20120510125824 ac77b159
+D s-exctab.ads		20120510125824 66e51330
+D s-ficobl.ads		20120510125825 443b9d66
+D s-finmas.ads		20120510125825 b95bb341
+D s-finroo.ads		20120510125825 4ff27390
+D s-imenne.ads		20120510125825 8707cbf0
+D s-parame.ads		20120510125832 b6e20cc0
+D s-pooglo.ads		20120510125832 542f33d0
+D s-secsta.ads		20120510125833 eea35a36
+D s-soflin.ads		20120510125833 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-stopoo.ads		20120510125834 7b8fbeee
+D s-traent.ads		20120510125838 5221ee41
+D s-unstyp.ads		20120510125838 6ae15c76
+D s-valenu.ads		20120510125839 bb1a4295
+D s-wchcon.ads		20120510125840 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 13|1r6 13r10 15r13 17r16 19r16 22r10 24r7 25r7 25r60 25r83
+. 25r122 30r10 30r83 32r25 38r10 40r10 47r19 47r53 47r74 50r22 55r19 55r53
+. 55r74 58r22 64r16 74r16
+X 7 a-textio.ads
+49K13*Text_IO 471e16 13|1w10 13r14 15r17 17r20 19r20 22r14 24r11 25r11 25r64
+. 25r87 25r126 30r14 30r87 32r29 38r14 40r14 47r23 47r57 47r78 50r26 55r23
+. 55r57 55r78 58r26 64r20 74r20
+166U14*New_Line 13|22s22 24s19 25s134
+169U14*Skip_Line 13|47s86 55s86
+206U14*Get 13|47s65 55s65
+208U14*Put 13|13s22 25s72
+242U14*Put 13|15s25 17s28 19s28 25s19 25s95 30s22 47s31 55s31
+256V13*Get_Line{string} 13|30s95
+263U14*Put_Line 13|32s37 38s22 40s22 50s34 58s34 64s28 74s28
+X 9 cellules.ads
+1K9*Cellules 25e13 13|2w6 6r11 8r36 9r42 30r53 40r32 74r59 81r24
+4E14*Symbole 4e35 13|6r20 8r45 9r51 30r62 40r41 74r68
+5a9*Suivant(4E14) 13|81r33
+X 10 grille.ads
+2K9*Grille 19e11 13|3w6 5r17 12r24 14r19 16r16 19r44 25r40 37r10 42r17 43r17
+. 61r20 65r19 69r16 77r16
+3E12*Ligne{character} 13|12r31 43r24
+4E12*Colonne{character} 13|14r26 25r47 42r24
+5R9*grille 18e14 13|5r24
+6V12*IsEmpty{boolean} 13|16s23 61s27
+6r21 Un_Plateau{5R9} 13|61r36
+6e42 X{4E12} 13|62r36
+6e55 Y{3E12} 13|63r36
+7V11*IsNotEmpty{9|4E14} 13|19s51
+9U14*Tracer 13|69s23 77s23
+9r22 Un_Plateau{5R9} 13|69r31 77r31
+9e50 X{4E12} 13|70r33 78r33
+9e66 Y{3E12} 13|71r33 79r33
+9e80 Un_Symbole{9|4E14} 13|72r33 80r33
+10V13*Tester{boolean} 13|65s26
+10r22 Un_Plateau{5R9} 13|65r34
+10e43 X{4E12} 13|66r36
+10e56 Y{3E12} 13|67r36
+10e67 Un_Symbole{9|4E14} 13|68r36
+11V13*IsFull{boolean} 13|37s17
+X 13 jeu.adb
+4U11*jeu 4b11 86l5 86t8
+5r4 Un_Plateau{10|5R9} 16r32 19r63 37r25 61r50 65r48 69m45 69r45 77m45 77r45
+6e4 Quel{9|4E14} 30m45 40r56 68r50 72r47 74r83 80r47 81m16 81r42
+7U14 Afficher 7b14 26l8 26t16 36s7 73s16
+8V16 Image{character} 8b16 8>23 10t31 19s37
+8e23 Un_Symbole{9|4E14} 9r66
+9a10 S{string} 10r21
+12e11 Y{10|3E12} 13r27 16r47 19r78
+14e14 X{10|4E12} 16r44 19r75
+25e35 X{10|4E12} 25r104
+42e13 X{10|4E12} 47m70 47r70 62r50 66r50 70r47 78r47
+43e13 Y{10|3E12} 55m70 55r70 63r50 67r50 71r47 79r47
+

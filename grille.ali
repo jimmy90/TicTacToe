@@ -1,0 +1,86 @@
+V "GNAT Lib v2012"
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnn
+
+U grille%b		grille.adb		ec50dabb NE OO PK
+W interfaces%s		interfac.ads		interfac.ali
+
+U grille%s		grille.ads		5438b917 EE NE OO PK
+W cellules%s		cellules.adb		cellules.ali
+
+D ada.ads		20120510125803 3ffc8e18
+D a-unccon.ads		20120510125801 f9eb8f06
+D cellules.ads		20131002222803 6f2e8e71
+D grille.ads		20131002230514 3b163766
+D grille.adb		20131002230544 d746eddd
+D interfac.ads		20120510125815 129923ea
+D system.ads		20120510125846 eb6e42ba
+D s-exctab.ads		20120510125824 66e51330
+D s-stalib.ads		20120510125834 f78bcf95
+X 3 cellules.ads
+1K9*Cellules 25e13 4|1w9 7r75 8r80 9r96 10r83 13r46 5|6r14 10r77 12r14 16r79
+. 17r28 17r69 19r19 19r77 23r96 25r7 42r82 54r28 54r69 55r11
+4E14*Symbole 4e35 4|7r84 8r89 9r105 10r92 5|10r86 16r88 17r37 23r105 42r91
+. 54r37
+6R14*Cellule 24e19 4|13r55
+8V10*IsEmpty{boolean} 5|6s23 19s28
+13V10*IsNotEmpty{4E14} 5|12s23 19s86
+16U12*Tracer 5|25s16
+X 4 grille.ads
+2K9*Grille 19l5 19e11 5|1b14 78l5 78t11
+3E12*Ligne{character} 6r59 7r61 8r60 9r73 10r60 13r27 5|4r61 10r63 16r59
+. 23r73 36r31 36r45 38r14 38r37 39r19 42r59 49r34 49r48 51r17 51r40 52r22
+. 66r36
+4E12*Colonne{character} 6r46 7r48 8r47 9r57 10r47 13r34 5|4r48 10r50 16r46
+. 23r57 30r33 30r49 32r14 32r39 33r19 42r46 43r36 43r52 45r17 45r42 46r22
+. 66r18
+5R9*grille 6r34 7r36 8r35 9r42 10r35 11r35 15c8 18e14 5|4r35 10r38 16r34
+. 23r42 42r34 73r34
+6V12*IsEmpty{boolean} 6>21 6>42 6>55 5|4b13 7l8 7t15
+6r21 Un_Plateau{5R9} 5|4b22 6r32
+6e42 X{4E12} 5|4b44 6r58
+6e55 Y{3E12} 5|4b57 6r55
+7V11*IsNotEmpty{3|4E14} 7>23 7>44 7>57 5|10b13 13l8 13t18
+7r23 Un_Plateau{5R9} 5|10b25 12r35
+7e44 X{4E12} 5|10b46 12r61
+7e57 Y{3E12} 5|10b59 12r58
+8V13*TakenBy{boolean} 8>22 8>43 8>56 8>67 5|16b13 20l8 20t15 58s10 60s11
+. 62s12 64s14 67s14 68s14
+8r22 Un_Plateau{5R9} 5|16b21 19r36 19r97
+8e43 X{4E12} 5|16b42 19r62 19r123
+8e56 Y{3E12} 5|16b55 19r59 19r120
+8e67 Un_Symbole{3|4E14} 5|16b66 19r128
+9U14*Tracer 9=22 9>50 9>66 9>80 5|23b14 27l8 27t14
+9r22 Un_Plateau{5R9} 5|23b22 25m24 25r24 26m7 26r34
+9e50 X{4E12} 5|23b50 25r50
+9e66 Y{3E12} 5|23b66 25r47
+9e80 Un_Symbole{3|4E14} 5|23b80 25r54
+10V13*Tester{boolean} 10>22 10>43 10>56 10>67 5|42b13 69l8 69t14
+10r22 Un_Plateau{5R9} 5|42b21 58r19 60r20 62r21 64r23 67r23 68r23
+10e43 X{4E12} 5|42b42 58r47 60r64 62r33 64r35 66r31 67r51 68r67
+10e56 Y{3E12} 5|42b55 58r51 60r69 62r50 64r66 66r47 67r69 68r100
+10e67 Un_Symbole{3|4E14} 5|42b66 58r54 60r72 62r54 64r71 67r73 68r105
+11V13*IsFull{boolean} 11>22 5|73b13 76l8 76t14
+11r22 Un_Plateau{5R9} 5|73b21 75r14
+13A9 Contenu(3|6R14)<character><character> 17r20
+14I12 Numero_Coup{natural} 16r21 5|75r40
+16i6*Nombre_Coups{14I12} 5|26m18 26r45 75r25
+17a7*Un_Contenu{13A9} 5|6r43 12r46 19r47 19r108 25m35
+X 5 grille.adb
+17V17 "="=17:78{boolean} 19r126
+17e21 X{3|4E14}
+17e24 Y{3|4E14}
+30V13 Voisin_Colonne{4|4E12} 30b13 30>29 34l8 34t22
+30e29 X{4|4E12} 32r10 33r33
+36V13 Voisin_Ligne{4|3E12} 36b13 36>27 40l8 40t20
+36e27 Y{4|3E12} 38r10 39r31
+43V16 Voisin_Colonne{4|4E12} 43b16 43>32 47l11 47t25 58s31 60s32 60s48 67s35
+. 68s35 68s51
+43e32 X{4|4E12} 45r13 46r36
+49V16 Voisin_Ligne{4|3E12} 49b16 49>30 53l11 53t23 62s36 64s38 64s52 67s55
+. 68s72 68s86
+49e30 Y{4|3E12} 51r13 52r34
+54V17 "="=54:78{boolean}
+54e21 X{3|4E14}
+54e24 Y{3|4E14}
+
