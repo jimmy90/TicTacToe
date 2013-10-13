@@ -1,7 +1,10 @@
 V "GNAT Lib v2012"
 M P W=8
+A -O2
+A -g
+A -gnatA
 P SS ZX
-R nnnnnnnnnnnnnnnvnnvnnvnnnvnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnvnnnnnnnnnnnvnnnnnnnnnnnnnn
+R nnnnnnnnnnnnnnnvnnvnnvnnnvvnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnvnnnnvnnnnnnvnnnnnnnnnnnnnn
 
 U jeu%b			jeu.adb			c7cb3ee8 NE OO SU IL
 W ada%s			ada.ads			ada.ali
@@ -11,38 +14,34 @@ W cellules%s		cellules.adb		cellules.ali
 W grille%s		grille.adb		grille.ali
 W interfaces%s		interfac.ads		interfac.ali
 W system%s		system.ads		system.ali
-W system.concat_2%s	s-conca2.adb		s-conca2.ali
-W system.concat_3%s	s-conca3.adb		s-conca3.ali
 W system.img_enum_new%s	s-imenne.adb		s-imenne.ali
 W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 W system.val_enum%s	s-valenu.adb		s-valenu.ali
 
-D ada.ads		20120510125803 3ffc8e18
+D ada.ads		20120510125802 3ffc8e18
 D a-except.ads		20120510125752 ec1b44c1
-D a-finali.ads		20120510125753 52ecdc1b
-D a-ioexce.ads		20120510125753 8b9de6cd
+D a-finali.ads		20120510125752 52ecdc1b
+D a-ioexce.ads		20120510125752 8b9de6cd
 D a-stream.ads		20120510125756 2ca4ee37
-D a-tags.ads		20120510125759 6c0509d0
+D a-tags.ads		20120510125758 6c0509d0
 D a-textio.ads		20120510125800 386df5d4
-D a-unccon.ads		20120510125801 f9eb8f06
-D cellules.ads		20131002222803 6f2e8e71
-D grille.ads		20131002230514 3b163766
-D interfac.ads		20120510125815 129923ea
+D a-unccon.ads		20120510125800 f9eb8f06
+D cellules.ads		20131013113528 6f2e8e71
+D grille.ads		20131013113530 3b163766
+D interfac.ads		20120510125814 129923ea
 D i-cstrea.ads		20120510125814 1bd72c32
-D jeu.adb		20131002234848 ab9e722b
-D system.ads		20120510125846 eb6e42ba
-D s-conca2.ads		20120510125823 fbd0f2fc
-D s-conca3.ads		20120510125823 762a026a
+D jeu.adb		20131013113530 ab9e722b
+D system.ads		20120510125846 6daf90c4
 D s-crtl.ads		20120510125824 ac77b159
 D s-exctab.ads		20120510125824 66e51330
-D s-ficobl.ads		20120510125825 443b9d66
-D s-finmas.ads		20120510125825 b95bb341
-D s-finroo.ads		20120510125825 4ff27390
-D s-imenne.ads		20120510125825 8707cbf0
+D s-ficobl.ads		20120510125824 443b9d66
+D s-finmas.ads		20120510125824 b95bb341
+D s-finroo.ads		20120510125824 4ff27390
+D s-imenne.ads		20120510125824 8707cbf0
 D s-parame.ads		20120510125832 b6e20cc0
 D s-pooglo.ads		20120510125832 542f33d0
-D s-secsta.ads		20120510125833 eea35a36
-D s-soflin.ads		20120510125833 24c8153c
+D s-secsta.ads		20120510125832 eea35a36
+D s-soflin.ads		20120510125832 24c8153c
 D s-stache.ads		20120510125834 596fc1b4
 D s-stalib.ads		20120510125834 f78bcf95
 D s-stoele.ads		20120510125834 facd7d98
@@ -50,7 +49,7 @@ D s-stoele.adb		20120510125834 afc5dc80
 D s-stopoo.ads		20120510125834 7b8fbeee
 D s-traent.ads		20120510125838 5221ee41
 D s-unstyp.ads		20120510125838 6ae15c76
-D s-valenu.ads		20120510125839 bb1a4295
+D s-valenu.ads		20120510125838 bb1a4295
 D s-wchcon.ads		20120510125840 bfeb2e3d
 X 1 ada.ads
 16K9*Ada 19e8 13|1r6 13r10 15r13 17r16 19r16 22r10 24r7 25r7 25r60 25r83

@@ -1,6 +1,9 @@
 V "GNAT Lib v2012"
+A -O2
+A -g
+A -gnatA
 P ZX
-R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnn
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnn
 
 U grille%b		grille.adb		ec50dabb NE OO PK
 W interfaces%s		interfac.ads		interfac.ali
@@ -8,13 +11,13 @@ W interfaces%s		interfac.ads		interfac.ali
 U grille%s		grille.ads		5438b917 EE NE OO PK
 W cellules%s		cellules.adb		cellules.ali
 
-D ada.ads		20120510125803 3ffc8e18
-D a-unccon.ads		20120510125801 f9eb8f06
-D cellules.ads		20131002222803 6f2e8e71
-D grille.ads		20131002230514 3b163766
-D grille.adb		20131002230544 d746eddd
-D interfac.ads		20120510125815 129923ea
-D system.ads		20120510125846 eb6e42ba
+D ada.ads		20120510125802 3ffc8e18
+D a-unccon.ads		20120510125800 f9eb8f06
+D cellules.ads		20131013113528 6f2e8e71
+D grille.ads		20131013113530 3b163766
+D grille.adb		20131013113530 d746eddd
+D interfac.ads		20120510125814 129923ea
+D system.ads		20120510125846 6daf90c4
 D s-exctab.ads		20120510125824 66e51330
 D s-stalib.ads		20120510125834 f78bcf95
 X 3 cellules.ads
