@@ -5,6 +5,7 @@ With Jeu;
 procedure main is
 	a:integer; non_digit:exception;
 begin
+   loop
       begin
 	Put_Line("Choisissez le nombre de joueur (1) pour jouer avec l'IA ou (2) pour deux joueurs");
 	loop --Une boucle afin que le joueur puisse ressaisir un nombre correct de joueur au cas ou il se tromperait.
@@ -23,9 +24,10 @@ begin
 		end if;
          end loop;
       exception
-         when others =>
-            put_line("recommencer la saisie! avec soit 1 ou 2");
+         when others => skip_line;
+         put_line("recommencer la saisie! avec soit 1 ou 2");
       end;
+   end loop;
 end main;
 
 --Attention les exceptions ne sont pas totalement gere par ex le cas ou l'utilisateur ne saisit pas un entier
