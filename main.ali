@@ -4,15 +4,19 @@ A -O2
 A -g
 A -gnatA
 P SS ZX
-R nnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnn
+R nnnnnnnnnnnnnnnnnnvnnvnnnvvnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnn
 
-U main%b		main.adb		bea6cea8 NE OO SU IL
+U main%b		main.adb		68e79623 NE OO SU IL
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W cellules%s		cellules.adb		cellules.ali
 W grille%s		grille.adb		grille.ali
 W jeu%b			jeu.adb			jeu.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
 
 D ada.ads		20120510125802 3ffc8e18
 D a-except.ads		20120510125752 ec1b44c1
@@ -28,8 +32,8 @@ D cellules.ads		20131013113528 6f2e8e71
 D grille.ads		20131013113530 3b163766
 D interfac.ads		20120510125814 129923ea
 D i-cstrea.ads		20120510125814 1bd72c32
-D jeu.adb		20131013131704 0e445bba
-D main.adb		20131013131704 2afc5075
+D jeu.adb		20131013131948 0e445bba
+D main.adb		20131013151606 fcbd08fe
 D system.ads		20120510125846 6daf90c4
 D s-crtl.ads		20120510125824 ac77b159
 D s-exctab.ads		20120510125824 66e51330
@@ -56,17 +60,18 @@ X 4 a-inteio.ads
 18K13*Integer_Text_IO[9|45] 16|1w22 1r58
 X 8 a-textio.ads
 49K13*Text_IO 471e16 16|1w10 1r46
-169U14*Skip_Line 16|16s33
-263U14*Put_Line 16|8s9 12s25 15s33 20s30
+169U14*Skip_Line 16|17s33
+263U14*Put_Line 16|9s9 13s25 16s33 21s30 27s13
 X 9 a-tiinio.ads
-55U14*Get 16|10s17[4|18]
+55U14*Get 16|11s17[4|18]
 X 11 cellules.ads
 1K9*Cellules 25e13 16|2w6
 X 12 grille.ads
 2K9*Grille 19e11 16|3w6
 X 15 jeu.adb
-4U11*jeu 16|4w6 18s33
+4U11*jeu 16|4w6 19s33
 X 16 main.adb
-5U11*main 5b11 24l5 24t9
-6i9 a{integer} 10m21 10r21 11r20 14r25
+5U11*main 5b11 29l5 29t9
+6i9 a{integer} 11m21 11r21 12r20 15r25
+6X20 non_digit
 

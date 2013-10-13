@@ -26,7 +26,7 @@ package body Grille is
       Un_Plateau.Nombre_Coups := Un_Plateau.Nombre_Coups + 1;
    end Tracer;
 
-   	--À expliquer
+   	--A expliquer
    function Voisin_Colonne (X : Colonne) return Colonne is
    begin
       if X = Colonne'Last then return Colonne'First;
