@@ -3,7 +3,7 @@ with Cellules;
 with Grille;
 With Jeu;
 procedure main is
-	a:integer; non_digit:exception;
+	a:integer;
 begin
    loop
       begin

@@ -46,7 +46,7 @@ begin
                begin
                   Ada.Text_Io.Put ("colonne   ? "); Ada.Text_Io.Get (X); Ada.Text_Io.Skip_Line; exit;
                exception
-                  when others =>
+                  when others => Ada.Text_Io.Skip_Line;
                      Ada.Text_Io.Put_Line ("Mauvaise colonne, Rejouez svp");
                end;
             end loop;
@@ -54,7 +54,7 @@ begin
                begin
                   Ada.Text_Io.Put ("ligne     ? "); Ada.Text_Io.Get (Y); Ada.Text_Io.Skip_Line; exit;
                exception
-                  when others =>
+                  when others => Ada.Text_Io.Skip_Line;
                      Ada.Text_Io.Put_Line ("Mauvaise ligne, Rejouez svp");
                end;
             end loop;
