@@ -1,6 +1,9 @@
 V "GNAT Lib v2012"
+A -O2
+A -g
+A -gnatA
 P ZX
-R nnnnnnnnnnnnnnnnnnnnnvnnnnvnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnn
+R nnnnnnnnnnnnnnnnnnnnnvnnnnvnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnvnnnvnnvnnnnnnnnnnnnnn
 
 U cellules%b		cellules.adb		9b5e91fb NE OO PK
 W ada.exceptions%s	a-except.adb		a-except.ali
@@ -10,12 +13,12 @@ W system%s		system.ads		system.ali
 W system.exception_table%s  s-exctab.adb	s-exctab.ali
 W system.standard_library%s  s-stalib.adb	s-stalib.ali
 
-D ada.ads		20120510125803 3ffc8e18
+D ada.ads		20120510125802 3ffc8e18
 D a-except.ads		20120510125752 ec1b44c1
-D a-unccon.ads		20120510125801 f9eb8f06
-D cellules.ads		20131002222803 6f2e8e71
-D cellules.adb		20131002224053 f4701f8a
-D system.ads		20120510125846 eb6e42ba
+D a-unccon.ads		20120510125800 f9eb8f06
+D cellules.ads		20131013113528 6f2e8e71
+D cellules.adb		20131013151532 f4701f8a
+D system.ads		20120510125846 6daf90c4
 D s-exctab.ads		20120510125824 66e51330
 D s-parame.ads		20120510125832 b6e20cc0
 D s-stalib.ads		20120510125834 f78bcf95
