@@ -1,45 +1,50 @@
 V "GNAT Lib v2012"
 M P W=8
+A -O2
+A -g
+A -gnatA
 P SS ZX
-R nnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnn
+R nnnnnnnnnnnnnnnnnnvnnvnnnvvnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnn
 
-U main%b		main.adb		69e9a544 NE OO SU IL
+U main%b		main.adb		68e79623 NE OO SU IL
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W cellules%s		cellules.adb		cellules.ali
 W grille%s		grille.adb		grille.ali
 W jeu%b			jeu.adb			jeu.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
 
-D ada.ads		20120510125803 3ffc8e18
+D ada.ads		20120510125802 3ffc8e18
 D a-except.ads		20120510125752 ec1b44c1
-D a-finali.ads		20120510125753 52ecdc1b
-D a-inteio.ads		20120510125753 f64b89a4
-D a-ioexce.ads		20120510125753 8b9de6cd
+D a-finali.ads		20120510125752 52ecdc1b
+D a-inteio.ads		20120510125752 f64b89a4
+D a-ioexce.ads		20120510125752 8b9de6cd
 D a-stream.ads		20120510125756 2ca4ee37
-D a-tags.ads		20120510125759 6c0509d0
+D a-tags.ads		20120510125758 6c0509d0
 D a-textio.ads		20120510125800 386df5d4
 D a-tiinio.ads		20120510125800 aa04e5d6
-D a-unccon.ads		20120510125801 f9eb8f06
-D cellules.ads		20131002222803 6f2e8e71
-D grille.ads		20131002230514 3b163766
-D interfac.ads		20120510125815 129923ea
+D a-unccon.ads		20120510125800 f9eb8f06
+D cellules.ads		20131013113528 6f2e8e71
+D grille.ads		20131013113530 3b163766
+D interfac.ads		20120510125814 129923ea
 D i-cstrea.ads		20120510125814 1bd72c32
-D jeu.adb		20131002234848 ea55c64a
-D main.adb		20131006004504 19a2a669
-D system.ads		20120510125846 eb6e42ba
-D s-conca2.ads		20120510125823 fbd0f2fc
-D s-conca3.ads		20120510125823 762a026a
+D jeu.adb		20131013131948 0e445bba
+D main.adb		20131013151606 fcbd08fe
+D system.ads		20120510125846 6daf90c4
 D s-crtl.ads		20120510125824 ac77b159
 D s-exctab.ads		20120510125824 66e51330
-D s-ficobl.ads		20120510125825 443b9d66
-D s-finmas.ads		20120510125825 b95bb341
-D s-finroo.ads		20120510125825 4ff27390
-D s-imenne.ads		20120510125825 8707cbf0
+D s-ficobl.ads		20120510125824 443b9d66
+D s-finmas.ads		20120510125824 b95bb341
+D s-finroo.ads		20120510125824 4ff27390
+D s-imenne.ads		20120510125824 8707cbf0
 D s-parame.ads		20120510125832 b6e20cc0
 D s-pooglo.ads		20120510125832 542f33d0
-D s-secsta.ads		20120510125833 eea35a36
-D s-soflin.ads		20120510125833 24c8153c
+D s-secsta.ads		20120510125832 eea35a36
+D s-soflin.ads		20120510125832 24c8153c
 D s-stache.ads		20120510125834 596fc1b4
 D s-stalib.ads		20120510125834 f78bcf95
 D s-stoele.ads		20120510125834 facd7d98
@@ -47,7 +52,7 @@ D s-stoele.adb		20120510125834 afc5dc80
 D s-stopoo.ads		20120510125834 7b8fbeee
 D s-traent.ads		20120510125838 5221ee41
 D s-unstyp.ads		20120510125838 6ae15c76
-D s-valenu.ads		20120510125839 bb1a4295
+D s-valenu.ads		20120510125838 bb1a4295
 D s-wchcon.ads		20120510125840 bfeb2e3d
 X 1 ada.ads
 16K9*Ada 19e8 16|1r6 1r18 1r42 1r54
@@ -55,17 +60,18 @@ X 4 a-inteio.ads
 18K13*Integer_Text_IO[9|45] 16|1w22 1r58
 X 8 a-textio.ads
 49K13*Text_IO 471e16 16|1w10 1r46
-169U14*Skip_Line 16|16s33
-263U14*Put_Line 16|8s9 12s25 15s33 20s30
+169U14*Skip_Line 16|17s33
+263U14*Put_Line 16|9s9 13s25 16s33 21s30 27s13
 X 9 a-tiinio.ads
-55U14*Get 16|10s17[4|18]
+55U14*Get 16|11s17[4|18]
 X 11 cellules.ads
 1K9*Cellules 25e13 16|2w6
 X 12 grille.ads
 2K9*Grille 19e11 16|3w6
 X 15 jeu.adb
-4U11*jeu 16|4w6 18s33
+4U11*jeu 16|4w6 19s33
 X 16 main.adb
-5U11*main 5b11 24l5 24t9
-6i9 a{integer} 10m21 10r21 11r20 14r25
+5U11*main 5b11 29l5 29t9
+6i9 a{integer} 11m21 11r21 12r20 15r25
+6X20 non_digit
 
